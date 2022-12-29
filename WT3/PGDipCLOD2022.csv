@@ -1,0 +1,6 @@
+﻿Firstname,Lastname,Username,Department,Password,OU
+Fred,Flinstone,K12345679,PGDipCLOD2022,Passw0rd,"OU=Users,OU=PGDipCLOD2022,DC=ads,DC=solarsubmaines,DC=com"
+Wilma,Fintsone,K00179558,PGDipCLOD2023,Passw0rd,"OU=Users,OU=PGDipCLOD2022,DC=ads,DC=solarsubmaines,DC=com"
+Barney,Rubble,K00178769,PGDipCLOD2024,Passw0rd,"OU=Users,OU=PGDipCLOD2022,DC=ads,DC=solarsubmaines,DC=com"
+Betty,Rubble,K00177670,PGDipCLOD2025,Passw0rd,"OU=Users,OU=PGDipCLOD2022,DC=ads,DC=solarsubmaines,DC=com"
+
