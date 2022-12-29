@@ -1,4 +1,11 @@
-﻿<#
+﻿# Script: Setup DC2.ps1
+# By: Martina Atkinson(L00177769)
+# Purpose : Installs services on server remotely using PowerShell remote session.
+# Prerequisites: Logged in as administrator 
+
+
+
+<#
 Remote server setup script.
 Run one line at a time, under supervision!
 #>
@@ -8,7 +15,7 @@ $REMOTE_SERVER = 'server-1'
 $FOREST = 'ads.solarsubmaines.com'
 
 # Connect to server-1
-Enter-PSSession $REMOTE_SERVER
+Enter-PSSession $REMOTE_SERVER -Credential (Get-Credential "ads\administrator")
 
 # Install the required features
 Install-WindowsFeature -name AD-Domain-Services 
