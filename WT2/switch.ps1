@@ -1,0 +1,22 @@
+﻿# Script: switch.ps1
+# By: Martina Atkinson(L00177769)
+# Purpose : Demonstrates the use of switch statement in PowerShell
+# Prerequisites: Logged in as administrator 
+
+# switch statement
+
+
+$day = 4 
+
+switch ( $day ) 
+{ 
+    0 { $result = 'Sunday' } 
+    1 { $result = 'Monday' } 
+    2 { $result = 'Tuesday' } 
+    3 { $result = 'Wednesday' } 
+    4 { $result = 'Thursday' } 
+    5 { $result = 'Friday' } 
+    6 { $result = 'Saturday' } 
+} 
+
+$result
