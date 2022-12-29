@@ -1,4 +1,4 @@
-# PowerShell ![icons8-powershell-48](C:\Users\Martina Atkinson\OneDrive - Atlantic TU\PGDiplomaCloud\IAC\Assignment2\PowerShell\icons8-powershell-48.png)
+# PowerShell ![icons8-powershell-48](./icons8-powershell-48.png)
 
 This repository contains exercise files from the PowerShell section of the Infrastructure as Code Module.  The lecturer provided technical walkthroughs and script files, completed by the students and uploaded to their GitHub accounts.  These walkthroughs gave students a great insight into PowerShell, as they were shown how to install the software, taught the language's syntax, performed scripted installations, and automated configuration tasks using Desired State Configuration. While no previous knowledge of PowerShell was required, a basic understanding of programming principles was necessary to complete some of the tasks.
 
